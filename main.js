@@ -123,3 +123,4 @@ let arr = ['samir', 'hani', 'ahmed ', 'ali'];
 arr.sort();
 console.log('#'.repeat(20));
 console.log(arr);
+console.log('#'.repeat(20));
