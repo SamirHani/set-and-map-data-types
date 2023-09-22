@@ -9,7 +9,9 @@
 // - has
 
 let mydata = ['iam', 'mydata', 'mydata'];
-
+for (let i = 0; i < mydata.length; i++) {
+  console.log(mydata[i]);
+}
 console.log(mydata);
 // the first char of Set should be capital
 let unique = new Set(mydata);
