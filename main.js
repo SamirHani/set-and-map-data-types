@@ -1,4 +1,4 @@
-// set data type
+// Set
 // properties
 // - size
 
@@ -12,19 +12,22 @@ let mydata = ['iam', 'mydata', 'mydata'];
 for (let i = 0; i < mydata.length; i++) {
   console.log(mydata[i]);
 }
+// this is normal array :)
 console.log(mydata);
+
 // the first char of Set should be capital
 let unique = new Set(mydata);
+
 // the set don't allow the repeted elements
-console.log(unique);
 // you can not access the elements in side the set with index
+console.log(unique);
+
 console.log(unique.size);
 // the size is equal to the length in the array
 
 console.log(unique.add('mydata'));
-
 // console.log(unique.delete('iam'));
-
+// console.log(unique.clear());
 console.log(unique.has('mydata'));
 
 unique.forEach((x) => console.log(x + 1));
